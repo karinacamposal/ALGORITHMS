@@ -1,4 +1,4 @@
-int isGreaterThan10(int number) {
+int isGreaterThan10(int number = 11) {
     int resultado = 0;
     if (number > 10){
         resultado = 1;
